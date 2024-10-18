@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/rounded_corners"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_margin="5dp">
+
+<ImageView
+android:id="@+id/imgPizza"
+android:layout_width="48dp"
+android:layout_height="48dp"
+android:layout_marginEnd="8dp"
+android:src="@drawable/pizza"
+app:layout_constraintEnd_toStartOf="@+id/textPizzaTitle"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintBottom_toBottomOf="parent" />
+
+<TextView
+android:id="@+id/textPizzaTitle"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:text="Pizza Americana"
+android:textSize="16sp"
+android:textColor="@android:color/black"
+android:textStyle="bold"
+app:layout_constraintStart_toEndOf="@id/imgPizza"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintBottom_toTopOf="@id/textPizzaSubtitle"
+app:layout_constraintEnd_toStartOf="@id/imgNext" />
+
+<TextView
+android:id="@+id/textPizzaSubtitle"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:text="Entregado - 03/01"
+android:textSize="14sp"
+android:textColor="@android:color/darker_gray"
+app:layout_constraintStart_toEndOf="@id/imgPizza"
+app:layout_constraintTop_toBottomOf="@id/textPizzaTitle"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toStartOf="@id/imgNext" />
+
+    <ImageView
+        android:id="@+id/imgNext"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_menu_arrow"
+        android:background="@drawable/selector_image_button"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

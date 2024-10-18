@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="agregar">#FFD40D</color>
+    <color name="backgraund">#D9D9D9</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="gris">#6B6B6B</color>
+    <color name="registrarse">#232323</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">proyectomovil</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Base.Theme.Proyectomovil" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/registrarse</item>
+        <item name="colorPrimaryVariant">@color/registrarse</item>
+        <item name="colorAccent">@color/registrarse</item>
+        <item name="buttonStyle">@style/MyButtonStyle</item>
+    </style>
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/registrarse</item>
+    </style>
+    <style name="Theme.Proyectomovil" parent="Base.Theme.Proyectomovil"/>
+    <style name="ToolbarTitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
