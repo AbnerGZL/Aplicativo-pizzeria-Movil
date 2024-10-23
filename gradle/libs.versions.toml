@@ -7,10 +7,14 @@ junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 appcompat = "1.7.0"
 material = "1.12.0"
-activity = "1.9.2"
+activity = "1.9.3"
 constraintlayout = "2.1.4"
+gmsMaps = "19.0.0"
+gmsLocation = "21.3.0"
 
 [libraries]
+gms-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "gmsMaps" }
+gms-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "gmsLocation" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }

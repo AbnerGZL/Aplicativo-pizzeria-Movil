@@ -1,3 +1,26 @@
 <resources>
-    <string name="app_name">proyectomovil</string>
+    <string name="app_name">LoginApp</string>
+    <string name="logo_happy_pizza">Logo Happy Pizza</string>
+    <string name="ingresar_nombre">Ingrese su nombre de usuario</string>
+    <string name="ingresar_contraseña">Ingrese su contraseña...</string>
+    <string name="google">Continuar con Google</string>
+    <string name="usuario">Usuario:</string>
+    <string name="nombre">Ingrese su nombre de usuario</string>
+    <string name="contraseña">Ingrese su contraseña</string>
+    <string name="contra">Contraseña:</string>
+    <string name="crear_nueva_cuenta">Crear nueva cuenta</string>
+    <string name="carrito_de_compra">Carrito de Compra</string>
+    <string name="confirmar_compra">Confirmar compra</string>
+    <string name="ver_m_s_productos">Ver más productos...</string>
+    <string name="happypizza">happypizza</string>
+    <string name="pizza_nombre">Pizza Nombre</string>
+    <string name="_25">precio</string>
+    <string name="_1">cantidad</string>
+    <string name="imagen_de_la_pizza">imagen de la pizza</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="delivery_icon">delivery_icon</string>
+    <string name="delivery">Delivery</string>
+    <string name="ingresa_tu_direcci_n_de_entrega">Ingresa tu dirección de entrega</string>
+    <string name="utilizar_mi_ubicaci_n_actual">Utilizar mi ubicación actual</string>
+    <string name="siguiente">Siguiente</string>
 </resources>

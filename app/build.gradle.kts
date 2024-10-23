@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.tecsup.proyectomovil"
+    namespace = "com.tecsup.loginapp"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.tecsup.proyectomovil"
-        minSdk = 30
+        applicationId = "com.tecsup.loginapp"
+        minSdk = 29
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -36,7 +36,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -45,4 +44,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation(libs.gms.maps)
+    implementation(libs.gms.location)
+
 }

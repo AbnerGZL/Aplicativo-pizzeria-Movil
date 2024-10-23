@@ -1,4 +1,4 @@
-package com.tecsup.proyectomovil
+package com.tecsup.loginapp
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
