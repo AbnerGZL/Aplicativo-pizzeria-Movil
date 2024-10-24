@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">proyectomovil</string>
+    <string name="app_name">My Application</string>
+    <string name="tecsup_name">Tecsup</string>
+    <string name="options_icon_desc" />
 </resources>

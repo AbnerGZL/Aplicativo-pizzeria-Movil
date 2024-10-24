@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Términos y Condiciones"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. ASPECTOS GENERALES\nLorem ipsum dolor sit amet, consectetur adipiscing elit. "
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. POLÍTICA DE PRIVACIDAD\nQuisque et est vitae neque sollicitudin tristique. Cras quis risus et justo interdum."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. USO DE LA INFORMACIÓN\nAliquam erat volutpat. Donec eget odio in tortor vehicula pharetra."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. RESPONSABILIDAD DEL USUARIO\nVestibulum sit amet neque vel eros dictum auctor. Integer mollis libero nec vehicula tempus."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. MODIFICACIÓN DE LOS TÉRMINOS\nNulla facilisi. Phasellus efficitur interdum justo non ultricies."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. LIMITACIÓN DE GARANTÍAS\nSed tincidunt arcu non lacus gravida gravida. Curabitur vel sagittis enim."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. LEGISLACIÓN APLICABLE\nEtiam faucibus lacus non metus bibendum tincidunt. Integer laoreet nunc vitae eros sodales."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8. CONTACTO\nSi tienes alguna duda sobre los términos y condiciones, puedes contactarnos a través del correo electrónico: support@example.com."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9. USO DE COOKIES\nCurabitur non eros sit amet nulla dignissim vestibulum. Maecenas euismod libero a elit convallis."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10. TERMINACIÓN DEL ACUERDO\nPraesent nec libero interdum, aliquet ex nec, aliquet magna. Nulla aliquet lacus et ante tristique."
+                android:textSize="14sp"
+                android:paddingBottom="8dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
