@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/image_pizza"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/hawaiana"
+        android:contentDescription="@string/imagen_de_la_pizza" />
+
+    <Space
+        android:layout_width="16dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text_pizza_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pizza_nombre"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:orientation="vertical"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_pizza_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_25"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center_vertical" />
+
+    <Space
+        android:layout_width="16dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button_decrease"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#D03139"
+            android:src="@drawable/eliminar" />
+
+        <TextView
+            android:id="@+id/text_quantity"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/button_increase"
+            android:layout_width="40dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#D03139"
+            android:src="@drawable/anadir"/>
+
+    </LinearLayout>
+
+</LinearLayout>

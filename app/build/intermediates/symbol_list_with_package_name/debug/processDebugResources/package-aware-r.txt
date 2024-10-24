@@ -126,6 +126,7 @@ attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
+attr ambientEnabled
 attr animateCircleAngleTo
 attr animateMenuItems
 attr animateNavigationIcon
@@ -232,6 +233,13 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -701,6 +709,10 @@ attr labelVisibilityMode
 attr largeFontVerticalOffsetAdjustment
 attr lastBaselineToBottomHeight
 attr lastItemDecorated
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr layout
 attr layoutDescription
 attr layoutDuringTransition
@@ -796,10 +808,14 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
+attr liteMode
 attr logo
 attr logoAdjustViewBounds
 attr logoDescription
 attr logoScaleType
+attr mapColorScheme
+attr mapId
+attr mapType
 attr marginHorizontal
 attr marginLeftSystemWindowInsets
 attr marginRightSystemWindowInsets
@@ -1297,10 +1313,19 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr upDuration
 attr useCompatPadding
 attr useDrawerArrowDrawable
 attr useMaterialThemeColors
+attr useViewLifecycle
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
@@ -1331,6 +1356,7 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool mtrl_btn_textappearance_all_caps
@@ -3009,6 +3035,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable anadir
 drawable avd_hide_password
 drawable avd_show_password
 drawable back_dev
@@ -3023,6 +3050,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable building_shop_svgrepo_com
+drawable carro_de_la_compra
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -3048,9 +3076,11 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable editre
+drawable eliminar
 drawable flecha
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable hawaiana
 drawable ic_account
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -3063,6 +3093,7 @@ drawable ic_cart
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_flecha
+drawable ic_google
 drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -3078,8 +3109,10 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable image
 drawable indeterminate_static
+drawable login_background
 drawable logo
 drawable logo2
+drawable logopizza
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
 drawable m3_bottom_sheet_drag_handle
@@ -3153,13 +3186,17 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable pizza
+drawable red_circle_background
 drawable rounded_corners
+drawable rounded_input_background
+drawable scooter
 drawable selector_image_button
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable triangle_svgrepo_com
 drawable triangulo_red
+drawable ubicacion
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -3259,17 +3296,26 @@ id bestChoice
 id blocking
 id bottom
 id bottomNavigation
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAddToCart
+id btnLogin
 id btnRegister
+id btn_current_location
+id btn_next
 id buttonPanel
+id button_add_to_cart
+id button_confirm_purchase
+id button_decrease
+id button_increase
 id cache_measures
 id callMeasure
 id cancel_button
 id carryVelocity
+id cartLayout
 id center
 id centerCrop
 id centerInside
@@ -3312,6 +3358,8 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id delivery_icon
+id delivery_title
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3355,6 +3403,7 @@ id enterAlwaysCollapsed
 id escape
 id etConfirmPassword
 id etEmail
+id etEntrega
 id etPassword
 id etUsername
 id exitUntilCollapsed
@@ -3373,6 +3422,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id follow_system
 id forever
 id fragment_container_view_tag
 id frost
@@ -3393,6 +3443,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hybrid
 id icon
 id icon_group
 id icon_only
@@ -3401,6 +3452,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id image_pizza
 id imgNext
 id imgPizza
 id immediateStop
@@ -3424,8 +3476,12 @@ id line3
 id linear
 id listMode
 id list_item
+id loginLayout
+id logo
+id logo_image
 id m3_side_sheet
 id main
+id map_view
 id marquee
 id masked
 id match_constraint
@@ -3560,6 +3616,7 @@ id recyclerViewCombos
 id recyclerViewDevoluciones
 id recyclerViewDrinks
 id recyclerViewOffers
+id recycler_view_cart
 id registerLayout
 id report_drawn
 id reverseSawtooth
@@ -3569,6 +3626,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id satellite
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3644,6 +3702,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id terrain
 id text
 id text2
 id textEnd
@@ -3657,6 +3716,10 @@ id textTop
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_pizza_name
+id text_pizza_price
+id text_quantity
+id text_view_more_products
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3666,12 +3729,14 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_cart
 id title_template
 id tituTem
 id titulo
 id tituloAyuda
 id toggle
 id toolbar
+id toolbar_title
 id top
 id topPanel
 id topdec
@@ -3690,7 +3755,10 @@ id triangle
 id tvConfirmPassword
 id tvEmail
 id tvPassword
+id tvRegister
 id tvUsername
+id tv_contrasena
+id tv_usuario
 id unchecked
 id uniform
 id unlabeled
@@ -3830,8 +3898,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_cart
+layout activity_delivery
 layout activity_devol
 layout activity_help
+layout activity_login
 layout activity_main
 layout activity_ofertas
 layout activity_pedido_help
@@ -3855,6 +3926,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
+layout item_cart
 layout item_help
 layout item_pizza
 layout item_pizza_help
@@ -3920,11 +3992,14 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_nav_menu
 menu menu_ofertas
 menu menu_ofertas2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string _1
+string _25
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3968,6 +4043,7 @@ string call_notification_hang_up_action
 string call_notification_incoming_text
 string call_notification_ongoing_text
 string call_notification_screening_text
+string carrito_de_compra
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3990,14 +4066,28 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string confirmar_compra
+string contra
+string contraseña
+string crear_nueva_cuenta
+string delivery
+string delivery_icon
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string google
+string happypizza
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string imagen_de_la_pizza
+string ingresa_tu_direcci_n_de_entrega
+string ingresar_contraseña
+string ingresar_nombre
+string iniciar_sesi_n
 string item_view_role_description
+string logo_happy_pizza
 string m3_exceed_max_badge_text_suffix
 string m3_ref_typeface_brand_medium
 string m3_ref_typeface_brand_regular
@@ -4098,18 +4188,24 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string nombre
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pizza_nombre
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
+string siguiente
 string status_bar_notification_info_overflow
+string usuario
+string utilizar_mi_ubicaci_n_actual
+string ver_m_s_productos
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
@@ -5319,6 +5415,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear trackStopIndicatorSize
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapColorScheme mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop backgroundTint
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType android_popupElevation dropDownBackgroundTint simpleItemLayout simpleItemSelectedColor simpleItemSelectedRippleColor simpleItems
