@@ -1,4 +1,4 @@
-package com.tecsup.loginapp
+package com.tecsup.loginapp.Models
 
 data class Pizza(
     val nombre: String,

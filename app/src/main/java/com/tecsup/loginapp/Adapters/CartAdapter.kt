@@ -1,4 +1,4 @@
-package com.tecsup.loginapp
+package com.tecsup.loginapp.Adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,6 +8,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.tecsup.loginapp.Models.Pizza
+import com.tecsup.loginapp.R
 
 class CartAdapter(
     private val context: Context,

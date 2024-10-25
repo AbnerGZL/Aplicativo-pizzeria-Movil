@@ -34,17 +34,18 @@ class LoginActivity : AppCompatActivity() {
             val email = etEmail.text.toString()
             val password = etPassword.text.toString()
 
-            if (email.isNotEmpty() && password.isNotEmpty()) {
-                val isAuthenticated = dbUser.authenticateUser(email, password)
-                if (isAuthenticated) {
+            if (email.isEmpty()) {
+                Toast.makeText(this, "Por favor ingrese su correo", Toast.LENGTH_SHORT).show()
+            } else if (password.isEmpty()) {
+                Toast.makeText(this, "Por favor ingrese su contraseña", Toast.LENGTH_SHORT).show()
+            } else {
+                if (dbUser.authenticateUser(email, password)) {
                     Toast.makeText(this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show()
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                 } else {
                     Toast.makeText(this, "Correo o contraseña incorrectos", Toast.LENGTH_SHORT).show()
                 }
-            } else {
-                Toast.makeText(this, "Por favor ingrese todos los datos", Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -59,5 +60,4 @@ class LoginActivity : AppCompatActivity() {
             insets
         }
     }
-
 }
