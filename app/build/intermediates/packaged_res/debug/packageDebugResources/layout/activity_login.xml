@@ -38,6 +38,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginEnd="40dp"
         android:hint="@string/nombre"
+        android:textColorHint="@color/black"
         android:textColor="#000"
         android:background="@drawable/rounded_input_background"
         android:padding="10dp"
@@ -66,10 +67,11 @@
         android:layout_marginEnd="40dp"
         android:layout_marginBottom="40dp"
         android:hint="@string/contraseña"
+        android:textColorHint="@color/black"
         android:background="@drawable/rounded_input_background"
         android:textColor="#000"
         android:padding="10dp"
-        android:inputType="text"
+        android:inputType="textPassword"
         app:passwordToggleEnabled="true"/>
 
     <com.google.android.material.button.MaterialButton

@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId = "com.tecsup.proyectomovil"
-        minSdk = 30
+        minSdk = 29
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -51,6 +51,4 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(libs.gms.maps)
-    implementation(libs.gms.location)
 }

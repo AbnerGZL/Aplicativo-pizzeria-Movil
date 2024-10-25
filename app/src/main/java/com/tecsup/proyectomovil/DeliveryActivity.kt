@@ -1,41 +1,31 @@
 package com.tecsup.proyectomovil
 
-import android.annotation.SuppressLint
+import android.Manifest
+import android.content.pm.PackageManager
 import android.os.Bundle
+import android.view.Menu
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
+import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
-import com.google.android.gms.location.FusedLocationProviderClient
-import com.google.android.gms.location.LocationServices
-import com.google.android.gms.maps.MapView
 
-class DeliveryActivity : AppCompatActivity(), OnMapReadyCallback{
+class DeliveryActivity : AppCompatActivity() {
 
-    private lateinit var mapView: MapView
-    private lateinit var fusedLocationClient: FusedLocationProviderClient
-    private lateinit var googleMap: GoogleMap
+    companion object {
+        private const val LOCATION_PERMISSION_REQUEST_CODE = 1000
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_delivery)
 
-        mapView = findViewById(R.id.map_view)
-        mapView.onCreate(savedInstanceState)
-        mapView.getMapAsync(this)
+        checkLocationPermission()
 
-        fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
-
-        val useCurrentLocationButton = findViewById<Button>(R.id.btn_current_location)
-        useCurrentLocationButton.setOnClickListener {
-            getCurrentLocation()
+        findViewById<Button>(R.id.btn_current_location).setOnClickListener {
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
@@ -45,40 +35,33 @@ class DeliveryActivity : AppCompatActivity(), OnMapReadyCallback{
         }
     }
 
-    @SuppressLint("MissingPermission")
-    private fun getCurrentLocation() {
-        fusedLocationClient.lastLocation.addOnSuccessListener { location ->
-            if (location != null) {
-                val currentLatLng = LatLng(location.latitude, location.longitude)
-                googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLatLng, 15f))
-                googleMap.addMarker(MarkerOptions().position(currentLatLng).title("Ubicación actual"))
+    private fun checkLocationPermission() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, arrayOf(Manifest.permission.ACCESS_FINE_LOCATION), LOCATION_PERMISSION_REQUEST_CODE)
+        }
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        if (requestCode == LOCATION_PERMISSION_REQUEST_CODE) {
+            if (grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             }
         }
     }
 
-    override fun onMapReady(map: GoogleMap) {
-        googleMap = map
-    }
-
     override fun onResume() {
         super.onResume()
-        mapView.onResume()
     }
 
     override fun onPause() {
         super.onPause()
-        mapView.onPause()
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        mapView.onDestroy()
     }
 
     override fun onLowMemory() {
         super.onLowMemory()
-        mapView.onLowMemory()
     }
-
-
 }

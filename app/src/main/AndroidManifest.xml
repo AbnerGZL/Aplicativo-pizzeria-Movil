@@ -26,6 +26,43 @@
             android:name=".RegisterActivity"
             android:exported="true" />
 
+        <activity android:name=".ActivityOfertas"
+            android:exported="true" />
+
+        <activity android:name=".ActivityPizzaHelp"
+            android:exported="true" />
+
+
+        <activity android:name=".ActivityOferta"
+            android:exported="true" />
+
+        <activity android:name=".DeliveryActivity"
+            android:exported="true" />
+
+        <activity android:name=".CartActivity"
+            android:exported="true" />
+
+        <activity android:name=".HelpActivity"
+            android:exported="true" />
+
+        <activity android:name=".HistorialActivity"
+            android:exported="true" />
+
+        <activity android:name=".DetallePedidoActivity"
+            android:exported="true" />
+
+        <activity android:name=".EnviosActivity"
+            android:exported="true" />
+
+        <activity android:name=".UserActivity"
+            android:exported="true" />
+
+        <activity android:name=".User2Activity"
+            android:exported="true" />
+
+        <activity android:name=".ActivityDevoluciones"
+            android:exported="true" />
+
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

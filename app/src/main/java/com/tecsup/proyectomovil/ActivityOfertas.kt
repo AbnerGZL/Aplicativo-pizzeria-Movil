@@ -1,5 +1,6 @@
 package com.tecsup.proyectomovil
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -13,6 +14,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.tecsup.proyectomovil.models.Product
 
 class ActivityOfertas : AppCompatActivity() {
@@ -20,20 +22,15 @@ class ActivityOfertas : AppCompatActivity() {
     private lateinit var recyclerViewOffers: RecyclerView
     private lateinit var recyclerViewCombos: RecyclerView
     private lateinit var recyclerViewDrinks: RecyclerView
-    private lateinit var productAdapterOffers: ProductAdapter
-    private lateinit var productAdapterCombos: ProductAdapter
-    private lateinit var productAdapterDrinks: ProductAdapter
 
     private val offerList = listOf(
         Product("Pizza Americana", 25.00, "local_pizza_americana"),
         Product("Pizza Napolitana", 30.00, "local_pizza_napolitana")
     )
-
     private val comboList = listOf(
         Product("Combo 1", 40.00, "local_combo_1"),
         Product("Combo 2", 45.00, "local_combo_2")
     )
-
     private val drinkList = listOf(
         Product("Coca Cola", 5.00, "local_drink_coke"),
         Product("Sprite", 5.00, "local_drink_sprite")
@@ -43,26 +40,51 @@ class ActivityOfertas : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ofertas)
 
+        setupBottomNavigation()
+        setupToolbar()
+        setupRecyclerViews()
+    }
+
+    private fun setupBottomNavigation() {
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigation)
+        bottomNavigationView.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.nav_cart -> {
+                    startActivity(Intent(this, CartActivity::class.java))
+                    true
+                }
+                R.id.nav_home -> {
+                    false
+                }
+                R.id.nav_account -> {
+                    startActivity(Intent(this, User2Activity::class.java))
+                    true
+                }
+                else -> false
+            }
+        }
+    }
+
+
+    private fun setupToolbar() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
         setSupportActionBar(toolbar)
         supportActionBar?.setDisplayShowTitleEnabled(true)
+    }
 
+    private fun setupRecyclerViews() {
         recyclerViewOffers = findViewById(R.id.recyclerViewOffers)
         recyclerViewCombos = findViewById(R.id.recyclerViewCombos)
         recyclerViewDrinks = findViewById(R.id.recyclerViewDrinks)
 
-        productAdapterOffers = ProductAdapter(offerList)
-        productAdapterCombos = ProductAdapter(comboList)
-        productAdapterDrinks = ProductAdapter(drinkList)
-
+        recyclerViewOffers.adapter = ProductAdapter(offerList)
         recyclerViewOffers.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        recyclerViewOffers.adapter = productAdapterOffers
 
+        recyclerViewCombos.adapter = ProductAdapter(comboList)
         recyclerViewCombos.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        recyclerViewCombos.adapter = productAdapterCombos
 
+        recyclerViewDrinks.adapter = ProductAdapter(drinkList)
         recyclerViewDrinks.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        recyclerViewDrinks.adapter = productAdapterDrinks
     }
 
     class ProductAdapter(private val productList: List<Product>) :
@@ -85,7 +107,14 @@ class ActivityOfertas : AppCompatActivity() {
             holder.productName.text = product.name
             holder.productPrice.text = "S/. ${product.price}"
 
-            val imageRes = when (product.imageUrl) {
+            val imageRes = getImageResource(product.imageUrl)
+            Glide.with(holder.productImage.context)
+                .load(imageRes)
+                .into(holder.productImage)
+        }
+
+        private fun getImageResource(imageUrl: String): Int {
+            return when (imageUrl) {
                 "local_pizza_americana" -> R.drawable.pizza
                 "local_pizza_napolitana" -> R.drawable.pizza
                 "local_combo_1" -> R.drawable.pizza
@@ -94,10 +123,6 @@ class ActivityOfertas : AppCompatActivity() {
                 "local_drink_sprite" -> R.drawable.pizza
                 else -> R.drawable.pizza
             }
-
-            Glide.with(holder.productImage.context)
-                .load(imageRes)
-                .into(holder.productImage)
         }
 
         override fun getItemCount(): Int = productList.size
@@ -110,12 +135,8 @@ class ActivityOfertas : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.action_settings -> {
-                true
-            }
-            R.id.action_about -> {
-                true
-            }
+            R.id.action_settings -> true
+            R.id.action_about -> true
             else -> super.onOptionsItemSelected(item)
         }
     }

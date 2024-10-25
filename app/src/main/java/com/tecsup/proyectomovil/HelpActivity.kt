@@ -1,7 +1,9 @@
 package com.tecsup.proyectomovil
 
+import android.content.Intent
 import com.tecsup.proyectomovil.R
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -14,6 +16,13 @@ class HelpActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_help)
 
+        findViewById<ImageView>(R.id.volver).apply {
+            setOnClickListener {
+                startActivity(Intent(this@HelpActivity, User2Activity::class.java))
+                finish()
+            }
+
+        }
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewAyuda)
         recyclerView.layoutManager = LinearLayoutManager(this)
 

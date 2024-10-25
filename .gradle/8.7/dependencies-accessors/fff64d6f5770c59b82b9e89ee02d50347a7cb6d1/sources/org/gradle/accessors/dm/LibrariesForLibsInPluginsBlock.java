@@ -176,7 +176,7 @@ public class LibrariesForLibsInPluginsBlock extends AbstractExternalDependencyFa
 
         /**
          * Dependency provider for <b>recyclerview</b> with <b>androidx.recyclerview:recyclerview</b> coordinates and
-         * with version <b>1.2.1</b>
+         * with version reference <b>androidx.recyclerview</b>
          * <p>
          * This dependency was declared in catalog libs.versions.toml
          *

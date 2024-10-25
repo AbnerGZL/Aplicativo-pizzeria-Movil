@@ -81,7 +81,6 @@
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
         android:layout_height="65dp"
-        android:background="?android:attr/windowBackground"
         app:menu="@menu/menu_ofertas" />
 
 </LinearLayout>

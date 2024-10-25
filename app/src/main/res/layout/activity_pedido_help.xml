@@ -15,10 +15,17 @@
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:title="        Ayuda con otro pedido"
         app:titleTextColor="@android:color/white"
-        app:logo="@drawable/flecha"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+    <ImageView
+        android:id="@+id/volver"
+        android:layout_width="25dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/flecha"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"

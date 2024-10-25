@@ -9,4 +9,7 @@
     <color name="agregar">#FFD40D</color>
     <color name="backgraund">#D9D9D9</color>
     <color name="gris">#6B6B6B</color>
+    <color name="red">#FF0000</color>
+    <color name="yellow">#FFEB3B</color>
+
 </resources>

@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#FFFFFF">
+    tools:context=".HelpActivity">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -13,8 +14,19 @@
         android:background="@color/black"
         app:popupTheme="@style/AppTheme.PopupOverlay"
         app:titleTextColor="@android:color/white"
-        app:logo="@drawable/flecha"
-        />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/volver"
+        android:layout_width="25dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/flecha"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/tituloAyuda"
         android:layout_width="wrap_content"
@@ -23,7 +35,10 @@
         android:textSize="40sp"
         android:textStyle="bold"
         android:layout_marginStart="20dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
         android:paddingBottom="16dp"/>
+
     <TextView
         android:id="@+id/preguntasFrec"
         android:layout_width="wrap_content"
@@ -32,12 +47,16 @@
         android:text="Preguntas Frecuentes:"
         android:textSize="24sp"
         android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/tituloAyuda"
+        app:layout_constraintStart_toStartOf="parent"
         android:paddingBottom="16dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewAyuda"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginStart="20dp"
-        />
-</LinearLayout>
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/preguntasFrec"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

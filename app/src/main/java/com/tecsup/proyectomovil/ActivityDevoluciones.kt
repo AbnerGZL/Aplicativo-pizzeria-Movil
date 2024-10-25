@@ -1,6 +1,8 @@
 package com.tecsup.proyectomovil
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -16,6 +18,14 @@ class ActivityDevoluciones : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_devol)
+
+        findViewById<ImageView>(R.id.volver).apply {
+            setOnClickListener {
+                startActivity(Intent(this@ActivityDevoluciones, User2Activity::class.java))
+                finish()
+            }
+
+        }
 
         recyclerView = findViewById(R.id.recyclerViewDevoluciones)
         recyclerView.layoutManager = LinearLayoutManager(this)

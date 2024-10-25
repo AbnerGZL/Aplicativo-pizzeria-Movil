@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el método de compra que deseas realizar"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/button_in_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/red"
+            android:text="Recoger en Tienda"
+            android:textColor="@android:color/white"
+            android:drawableStart="@drawable/building_shop_svgrepo_com"
+            android:drawablePadding="10dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/button_delivery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:text="Delivery"
+            android:textColor="@android:color/black"
+            android:drawableStart="@drawable/scooter"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_continue_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/transparent"
+        android:text="Seguir escogiendo pizzas..."
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+</LinearLayout>
