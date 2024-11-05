@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ic_cart.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_triangulo_rojo.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\triangulo_rojo.xml"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_triangulo_red.xml.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\triangulo_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_triangulo_rojo.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\triangulo_rojo.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\img_pizza.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_triangulo_amarillo.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\triangulo_amarillo.xml"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_triangulo_amarillo.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\triangulo_amarillo.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ubicacion.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_sugerencias.png.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\sugerencias.png"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_back_dev.xml.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\back_dev.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_sugerencias.png.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\sugerencias.png"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_baseline_more_vert_24.xml.flat",
@@ -140,12 +140,12 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\preguntas_frecuentes.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_account.xml.flat",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ic_puntos.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_detalle_pedido.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_detalle_pedido.xml"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_user2.xml.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_user2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_detalle_pedido.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_detalle_pedido.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_rounded_button_background.xml.flat",
@@ -196,16 +196,20 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\star.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_ayuda.png.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ayuda.png"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_rounded_input_background.xml.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\rounded_input_background.xml"
     },
     {
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_ayuda.png.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ayuda.png"
+    },
+    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_pedido_help.xml.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_pedido_help.xml"
+    },
+    {
+        "merged": "com.tecsup.proyectomovil.app-debug-34:/layout_activity_ofertas.xml.flat",
+        "source": "com.tecsup.proyectomovil.app-main-36:/layout/activity_ofertas.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\xml_data_extraction_rules.xml.flat",
@@ -232,10 +236,6 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_cart.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-34:/layout_activity_login.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-36:/layout/activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_eliminar.xml.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\eliminar.xml"
     },
@@ -256,16 +256,12 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\devoluciones.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_editre.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\editre.xml"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_hawaiana.png.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\hawaiana.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_editre.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\editre.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_user.xml.flat",
@@ -356,12 +352,12 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\mipmap-anydpi\\ic_launcher_round.xml"
-    },
-    {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_ic_home.png.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_ubic.png.flat",
@@ -384,16 +380,16 @@
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\logo2.png"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_delivery.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_delivery.xml"
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_back_help.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\back_help.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_red_circle_background.xml.flat",
         "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\red_circle_background.xml"
     },
     {
-        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\drawable_back_help.xml.flat",
-        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\drawable\\back_help.xml"
+        "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_delivery.xml.flat",
+        "source": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-main-36:\\layout\\activity_delivery.xml"
     },
     {
         "merged": "C:\\Users\\Kanade_\\.gradle\\daemon\\8.7\\com.tecsup.proyectomovil.app-debug-34:\\layout_activity_ofertas.xml.flat",

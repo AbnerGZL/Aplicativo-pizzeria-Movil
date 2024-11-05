@@ -2,6 +2,7 @@ package com.tecsup.proyectomovil
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -16,33 +17,45 @@ import android.widget.TextView
 import androidx.appcompat.widget.Toolbar
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.tecsup.proyectomovil.models.Product
+import com.tecsup.proyectomovil.utils.RetrofitClient
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class ActivityOfertas : AppCompatActivity() {
-
     private lateinit var recyclerViewOffers: RecyclerView
-    private lateinit var recyclerViewCombos: RecyclerView
-    private lateinit var recyclerViewDrinks: RecyclerView
-
-    private val offerList = listOf(
-        Product("Pizza Americana", 25.00, "local_pizza_americana"),
-        Product("Pizza Napolitana", 30.00, "local_pizza_napolitana")
-    )
-    private val comboList = listOf(
-        Product("Combo 1", 40.00, "local_combo_1"),
-        Product("Combo 2", 45.00, "local_combo_2")
-    )
-    private val drinkList = listOf(
-        Product("Coca Cola", 5.00, "local_drink_coke"),
-        Product("Sprite", 5.00, "local_drink_sprite")
-    )
+    private lateinit var productAdapter: ProductAdapter
+    private val productList = mutableListOf<Product>()  // Lista mutable para los productos
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ofertas)
 
-        setupBottomNavigation()
-        setupToolbar()
-        setupRecyclerViews()
+        setupBottomNavigation()  // Configurar la navegación inferior
+        setupToolbar()           // Configurar la barra de herramientas
+        setupRecyclerView()      // Configurar el RecyclerView
+        fetchProductsFromApi()   // Cargar productos de la API
+    }
+
+    private fun fetchProductsFromApi() {
+        RetrofitClient.instance.getProducts().enqueue(object : Callback<List<Product>> {
+            override fun onResponse(call: Call<List<Product>>, response: Response<List<Product>>) {
+                if (response.isSuccessful) {
+                    response.body()?.let { products ->
+                        productList.clear() // Limpiar la lista actual
+                        productList.addAll(products) // Agregar nuevos productos
+                        productAdapter.notifyDataSetChanged()
+                        Log.d("API Response", products.toString())
+                    }
+                } else {
+                    Log.e("API Response", "Error: ${response.errorBody()?.string()}")
+                }
+            }
+
+            override fun onFailure(call: Call<List<Product>>, t: Throwable) {
+                // Manejo de errores de conexión (puedes agregar un Toast o Log aquí)
+            }
+        })
     }
 
     private fun setupBottomNavigation() {
@@ -54,7 +67,7 @@ class ActivityOfertas : AppCompatActivity() {
                     true
                 }
                 R.id.nav_home -> {
-                    false
+                    false // Si no haces nada, debes devolver false
                 }
                 R.id.nav_account -> {
                     startActivity(Intent(this, User2Activity::class.java))
@@ -65,28 +78,20 @@ class ActivityOfertas : AppCompatActivity() {
         }
     }
 
-
     private fun setupToolbar() {
         val toolbar: Toolbar = findViewById(R.id.toolbar)
-        setSupportActionBar(toolbar)
-        supportActionBar?.setDisplayShowTitleEnabled(true)
+        setSupportActionBar(toolbar) // Configurar la barra de herramientas como soporte
+        supportActionBar?.setDisplayShowTitleEnabled(true) // Mostrar el título
     }
 
-    private fun setupRecyclerViews() {
+    private fun setupRecyclerView() {
         recyclerViewOffers = findViewById(R.id.recyclerViewOffers)
-        recyclerViewCombos = findViewById(R.id.recyclerViewCombos)
-        recyclerViewDrinks = findViewById(R.id.recyclerViewDrinks)
-
-        recyclerViewOffers.adapter = ProductAdapter(offerList)
-        recyclerViewOffers.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-
-        recyclerViewCombos.adapter = ProductAdapter(comboList)
-        recyclerViewCombos.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-
-        recyclerViewDrinks.adapter = ProductAdapter(drinkList)
-        recyclerViewDrinks.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        productAdapter = ProductAdapter(productList) // Inicializar el adaptador
+        recyclerViewOffers.adapter = productAdapter
+        recyclerViewOffers.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false) // Configurar el layout manager
     }
 
+    // Adaptador para el RecyclerView
     class ProductAdapter(private val productList: List<Product>) :
         RecyclerView.Adapter<ProductAdapter.ProductViewHolder>() {
 
@@ -107,29 +112,17 @@ class ActivityOfertas : AppCompatActivity() {
             holder.productName.text = product.name
             holder.productPrice.text = "S/. ${product.price}"
 
-            val imageRes = getImageResource(product.imageUrl)
+            // Usa Glide para cargar la imagen del producto
             Glide.with(holder.productImage.context)
-                .load(imageRes)
+                .load(product.imageUrl)
                 .into(holder.productImage)
         }
 
-        private fun getImageResource(imageUrl: String): Int {
-            return when (imageUrl) {
-                "local_pizza_americana" -> R.drawable.pizza
-                "local_pizza_napolitana" -> R.drawable.pizza
-                "local_combo_1" -> R.drawable.pizza
-                "local_combo_2" -> R.drawable.pizza
-                "local_drink_coke" -> R.drawable.pizza
-                "local_drink_sprite" -> R.drawable.pizza
-                else -> R.drawable.pizza
-            }
-        }
-
-        override fun getItemCount(): Int = productList.size
+        override fun getItemCount(): Int = productList.size // Retorna la cantidad de productos
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_ofertas2, menu)
+        menuInflater.inflate(R.menu.menu_ofertas2, menu) // Inflar el menú
         return true
     }
 

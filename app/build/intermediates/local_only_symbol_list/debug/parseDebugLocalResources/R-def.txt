@@ -79,7 +79,6 @@ id action_settings
 id ayuda_icon
 id ayuda_text
 id bottomNavigation
-id bottom_navigation
 id btnAddToCart
 id btnBack
 id btnLogin
@@ -87,7 +86,6 @@ id btnRegister
 id btnTrackOrder
 id btn_current_location
 id btn_next
-id button_add_to_cart
 id button_confirm_purchase
 id button_continue_shopping
 id button_decrease
@@ -208,7 +206,6 @@ layout activity_envios
 layout activity_help
 layout activity_historial
 layout activity_login
-layout activity_main
 layout activity_ofertas
 layout activity_pedido_help
 layout activity_recoger
