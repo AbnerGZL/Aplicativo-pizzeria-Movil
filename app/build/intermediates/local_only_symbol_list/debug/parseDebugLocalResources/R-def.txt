@@ -224,6 +224,7 @@ menu menu_ofertas
 menu menu_ofertas2
 mipmap ic_launcher
 mipmap ic_launcher_round
+string Google_maps_key
 string _1
 string _25
 string app_name

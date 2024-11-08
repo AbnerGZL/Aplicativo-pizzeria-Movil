@@ -11,6 +11,7 @@
     <color name="registrarse">#232323</color>
     <color name="white">#FFFFFF</color>
     <color name="yellow">#FFEB3B</color>
+    <string name="Google_maps_key" templateMargeStrategy="preserve" translatable="false">AIzaSyB4MTkwE7q2Kb8L-5_dxO0niCbljUVlyTI</string>
     <string name="_1">cantidad</string>
     <string name="_25">precio</string>
     <string name="app_name">proyectomovil</string>

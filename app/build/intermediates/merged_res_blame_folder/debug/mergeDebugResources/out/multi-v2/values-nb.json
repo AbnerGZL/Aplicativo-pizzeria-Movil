@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.tecsup.proyectomovil.app-mergeDebugResources-32:/values-nb/values-nb.xml",
+            "outputFile": "com.tecsup.proyectomovil.app-mergeDebugResources-33:/values-nb/values-nb.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kanade_\\.gradle\\caches\\transforms-4\\cd33e91a0e5f03c107e5b92d2ef0f12f\\transformed\\material-1.12.0\\res\\values-nb\\values-nb.xml",

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.tecsup.proyectomovil.app-mergeDebugResources-32:/values-ur/values-ur.xml",
+            "outputFile": "com.tecsup.proyectomovil.app-mergeDebugResources-33:/values-ur/values-ur.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Kanade_\\.gradle\\caches\\transforms-4\\28acfd96dd50f90339d33e9a4ab0acec\\transformed\\play-services-base-18.5.0\\res\\values-ur\\values.xml",

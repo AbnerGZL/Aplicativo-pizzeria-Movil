@@ -125,6 +125,7 @@ int attr allowStacking 0x7f03002d
 int attr alpha 0x7f03002e
 int attr alphabeticModifiers 0x7f03002f
 int attr altSrc 0x7f030030
+int attr ambientEnabled 0x7f0304e6
 int attr animateCircleAngleTo 0x7f030031
 int attr animateMenuItems 0x7f030032
 int attr animateNavigationIcon 0x7f030033
@@ -231,6 +232,13 @@ int attr buttonStyle 0x7f030097
 int attr buttonStyleSmall 0x7f030098
 int attr buttonTint 0x7f030099
 int attr buttonTintMode 0x7f03009a
+int attr cameraBearing 0x7f0304e7
+int attr cameraMaxZoomPreference 0x7f0304e8
+int attr cameraMinZoomPreference 0x7f0304e9
+int attr cameraTargetLat 0x7f0304ea
+int attr cameraTargetLng 0x7f0304eb
+int attr cameraTilt 0x7f0304ec
+int attr cameraZoom 0x7f0304ed
 int attr cardBackgroundColor 0x7f03009b
 int attr cardCornerRadius 0x7f03009c
 int attr cardElevation 0x7f03009d
@@ -700,6 +708,10 @@ int attr labelVisibilityMode 0x7f03026c
 int attr largeFontVerticalOffsetAdjustment 0x7f03026d
 int attr lastBaselineToBottomHeight 0x7f03026e
 int attr lastItemDecorated 0x7f03026f
+int attr latLngBoundsNorthEastLatitude 0x7f0304ee
+int attr latLngBoundsNorthEastLongitude 0x7f0304ef
+int attr latLngBoundsSouthWestLatitude 0x7f0304f0
+int attr latLngBoundsSouthWestLongitude 0x7f0304f1
 int attr layout 0x7f030270
 int attr layoutDescription 0x7f030271
 int attr layoutDuringTransition 0x7f030272
@@ -795,10 +807,12 @@ int attr listPreferredItemPaddingEnd 0x7f0302cb
 int attr listPreferredItemPaddingLeft 0x7f0302cc
 int attr listPreferredItemPaddingRight 0x7f0302cd
 int attr listPreferredItemPaddingStart 0x7f0302ce
+int attr liteMode 0x7f0304f2
 int attr logo 0x7f0302cf
 int attr logoAdjustViewBounds 0x7f0302d0
 int attr logoDescription 0x7f0302d1
 int attr logoScaleType 0x7f0302d2
+int attr mapType 0x7f0304f3
 int attr marginHorizontal 0x7f0302d3
 int attr marginLeftSystemWindowInsets 0x7f0302d4
 int attr marginRightSystemWindowInsets 0x7f0302d5
@@ -1296,10 +1310,19 @@ int attr triggerId 0x7f0304c0
 int attr triggerReceiver 0x7f0304c1
 int attr triggerSlack 0x7f0304c2
 int attr ttcIndex 0x7f0304c3
+int attr uiCompass 0x7f0304f4
+int attr uiMapToolbar 0x7f0304f5
+int attr uiRotateGestures 0x7f0304f6
+int attr uiScrollGestures 0x7f0304f7
+int attr uiScrollGesturesDuringRotateOrZoom 0x7f0304f8
+int attr uiTiltGestures 0x7f0304f9
+int attr uiZoomControls 0x7f0304fa
+int attr uiZoomGestures 0x7f0304fb
 int attr upDuration 0x7f0304c4
 int attr useCompatPadding 0x7f0304c5
 int attr useDrawerArrowDrawable 0x7f0304c6
 int attr useMaterialThemeColors 0x7f0304c7
+int attr useViewLifecycle 0x7f0304fc
 int attr values 0x7f0304c8
 int attr verticalOffset 0x7f0304c9
 int attr verticalOffsetWithText 0x7f0304ca
@@ -1330,6 +1353,7 @@ int attr windowNoTitle 0x7f0304e2
 int attr yearSelectedStyle 0x7f0304e3
 int attr yearStyle 0x7f0304e4
 int attr yearTodayStyle 0x7f0304e5
+int attr zOrderOnTop 0x7f0304fd
 int bool abc_action_bar_embed_tabs 0x7f040000
 int bool abc_config_actionMenuItemAllCaps 0x7f040001
 int bool mtrl_btn_textappearance_all_caps 0x7f040002
@@ -3463,6 +3487,7 @@ int id home 0x7f080100
 int id homeAsUp 0x7f080101
 int id honorRequest 0x7f080102
 int id horizontal_only 0x7f080103
+int id hybrid 0x7f080279
 int id ic_ayuda 0x7f080104
 int id ic_devo 0x7f080105
 int id ic_historial 0x7f080106
@@ -3653,6 +3678,7 @@ int id right_icon 0x7f0801bf
 int id right_side 0x7f0801c0
 int id rounded 0x7f0801c1
 int id row_index_key 0x7f0801c2
+int id satellite 0x7f08027a
 int id save_non_transition_alpha 0x7f0801c3
 int id save_overlay_view 0x7f0801c4
 int id sawtooth 0x7f0801c5
@@ -3729,6 +3755,7 @@ int id tag_unhandled_key_event_manager 0x7f08020b
 int id tag_unhandled_key_listeners 0x7f08020c
 int id tag_window_insets_animation_callback 0x7f08020d
 int id terms_icon 0x7f08020e
+int id terrain 0x7f08027b
 int id text 0x7f08020f
 int id text2 0x7f080210
 int id textEnd 0x7f080211
@@ -4054,6 +4081,7 @@ int menu menu_ofertas2 0x7f0d0002
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
 int plurals mtrl_badge_content_description 0x7f0f0000
+int string Google_maps_key 0x7f1000dd
 int string _1 0x7f100000
 int string _25 0x7f100001
 int string abc_action_bar_home_description 0x7f100002
@@ -6706,6 +6734,31 @@ int[] styleable LoadingImageView { 0x7f0300d3, 0x7f030233, 0x7f030234 }
 int styleable LoadingImageView_circleCrop 0
 int styleable LoadingImageView_imageAspectRatio 1
 int styleable LoadingImageView_imageAspectRatioAdjust 2
+int[] styleable MapAttrs { 0x7f0304e6, 0x7f0304e7, 0x7f0304e8, 0x7f0304e9, 0x7f0304ea, 0x7f0304eb, 0x7f0304ec, 0x7f0304ed, 0x7f0304ee, 0x7f0304ef, 0x7f0304f0, 0x7f0304f1, 0x7f0304f2, 0x7f0304f3, 0x7f0304f4, 0x7f0304f5, 0x7f0304f6, 0x7f0304f7, 0x7f0304f8, 0x7f0304f9, 0x7f0304fa, 0x7f0304fb, 0x7f0304fc, 0x7f0304fd }
+int styleable MapAttrs_ambientEnabled 0
+int styleable MapAttrs_cameraBearing 1
+int styleable MapAttrs_cameraMaxZoomPreference 2
+int styleable MapAttrs_cameraMinZoomPreference 3
+int styleable MapAttrs_cameraTargetLat 4
+int styleable MapAttrs_cameraTargetLng 5
+int styleable MapAttrs_cameraTilt 6
+int styleable MapAttrs_cameraZoom 7
+int styleable MapAttrs_latLngBoundsNorthEastLatitude 8
+int styleable MapAttrs_latLngBoundsNorthEastLongitude 9
+int styleable MapAttrs_latLngBoundsSouthWestLatitude 10
+int styleable MapAttrs_latLngBoundsSouthWestLongitude 11
+int styleable MapAttrs_liteMode 12
+int styleable MapAttrs_mapType 13
+int styleable MapAttrs_uiCompass 14
+int styleable MapAttrs_uiMapToolbar 15
+int styleable MapAttrs_uiRotateGestures 16
+int styleable MapAttrs_uiScrollGestures 17
+int styleable MapAttrs_uiScrollGesturesDuringRotateOrZoom 18
+int styleable MapAttrs_uiTiltGestures 19
+int styleable MapAttrs_uiZoomControls 20
+int styleable MapAttrs_uiZoomGestures 21
+int styleable MapAttrs_useViewLifecycle 22
+int styleable MapAttrs_zOrderOnTop 23
 int[] styleable MaterialAlertDialog { 0x7f030049, 0x7f03004a, 0x7f03004b, 0x7f03004c, 0x7f030050 }
 int styleable MaterialAlertDialog_backgroundInsetBottom 0
 int styleable MaterialAlertDialog_backgroundInsetEnd 1
