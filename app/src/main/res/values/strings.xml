@@ -37,4 +37,6 @@
     <string name="carrito">Carrito</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="ingrese_su_tel_fono">Ingrese su teléfono</string>
 </resources>

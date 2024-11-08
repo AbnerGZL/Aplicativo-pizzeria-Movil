@@ -5,14 +5,15 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.tecsup.loginapp.Models.Cliente
+import com.tecsup.loginapp.Retrofit.RetrofitClient
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class LoginActivity : AppCompatActivity() {
 
-    private lateinit var dbUser: DBUser
     private lateinit var btnLogin: Button
     private lateinit var etEmail: EditText
     private lateinit var etPassword: EditText
@@ -20,7 +21,6 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_login)
 
         btnLogin = findViewById(R.id.btnLogin)
@@ -28,24 +28,14 @@ class LoginActivity : AppCompatActivity() {
         etPassword = findViewById(R.id.etPassword)
         tvRegister = findViewById(R.id.tvRegister)
 
-        dbUser = DBUser(this)
-
         btnLogin.setOnClickListener {
             val email = etEmail.text.toString()
             val password = etPassword.text.toString()
 
-            if (email.isEmpty()) {
-                Toast.makeText(this, "Por favor ingrese su correo", Toast.LENGTH_SHORT).show()
-            } else if (password.isEmpty()) {
-                Toast.makeText(this, "Por favor ingrese su contraseña", Toast.LENGTH_SHORT).show()
+            if (email.isEmpty() || password.isEmpty()) {
+                Toast.makeText(this, "Por favor ingrese su correo y contraseña", Toast.LENGTH_SHORT).show()
             } else {
-                if (dbUser.authenticateUser(email, password)) {
-                    Toast.makeText(this, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this, MainActivity::class.java)
-                    startActivity(intent)
-                } else {
-                    Toast.makeText(this, "Correo o contraseña incorrectos", Toast.LENGTH_SHORT).show()
-                }
+                autenticarUsuario(email, password)
             }
         }
 
@@ -53,11 +43,30 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+    }
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.loginLayout)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+    private fun autenticarUsuario(correo: String, contrasena: String) {
+        val clienteService = RetrofitClient.instance
+        clienteService.getClientes().enqueue(object : Callback<List<Cliente>> {
+            override fun onResponse(call: Call<List<Cliente>>, response: Response<List<Cliente>>) {
+                if (response.isSuccessful) {
+                    val clientes = response.body() ?: emptyList()
+                    val usuario = clientes.find { it.correo == correo && it.contrasena == contrasena }
+                    if (usuario != null) {
+                        Toast.makeText(this@LoginActivity, "Inicio de sesión exitoso", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this@LoginActivity, MainActivity::class.java)
+                        startActivity(intent)
+                    } else {
+                        Toast.makeText(this@LoginActivity, "Correo o contraseña incorrectos", Toast.LENGTH_SHORT).show()
+                    }
+                } else {
+                    Toast.makeText(this@LoginActivity, "Error: ${response.code()}", Toast.LENGTH_SHORT).show()
+                }
+            }
+
+            override fun onFailure(call: Call<List<Cliente>>, t: Throwable) {
+                Toast.makeText(this@LoginActivity, "Error de conexión", Toast.LENGTH_SHORT).show()
+            }
+        })
     }
 }

@@ -5,63 +5,65 @@ import android.util.Patterns
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.tecsup.loginapp.Models.Cliente
+import com.tecsup.loginapp.Retrofit.RetrofitClient
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
 
 class RegisterActivity : AppCompatActivity() {
 
-    private lateinit var dbUser: DBUser
     private lateinit var btnRegister: Button
+    private lateinit var etUsername: EditText
     private lateinit var etEmail: EditText
+    private lateinit var etTelefono: EditText
     private lateinit var etPassword: EditText
-    private lateinit var etConfirmPassword: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_register)
 
         btnRegister = findViewById(R.id.btnRegister)
+        etUsername = findViewById(R.id.etUsername)
         etEmail = findViewById(R.id.etEmail)
+        etTelefono = findViewById(R.id.etPhone)
         etPassword = findViewById(R.id.etPassword)
-        etConfirmPassword = findViewById(R.id.etConfirmPassword)
-
-        dbUser = DBUser(this)
 
         btnRegister.setOnClickListener {
-            val email = etEmail.text.toString()
-            val password = etPassword.text.toString()
-            val confirmPassword = etConfirmPassword.text.toString()
+            val nombre = etUsername.text.toString()
+            val correo = etEmail.text.toString()
+            val telefono = etTelefono.text.toString()
+            val contrasena = etPassword.text.toString()
 
-            // Validaciones de los campos
-            if (email.isEmpty()) {
-                Toast.makeText(this, "Por favor ingrese un correo", Toast.LENGTH_SHORT).show()
-            } else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
-                Toast.makeText(this, "Correo no válido", Toast.LENGTH_SHORT).show()
-            } else if (password.isEmpty() || confirmPassword.isEmpty()) {
-                Toast.makeText(this, "Por favor ingrese una contraseña", Toast.LENGTH_SHORT).show()
-            } else if (password != confirmPassword) {
-                Toast.makeText(this, "Las contraseñas no coinciden", Toast.LENGTH_SHORT).show()
-            } else if (dbUser.isEmailRegistered(email)) {
-                Toast.makeText(this, "Este correo ya está registrado", Toast.LENGTH_SHORT).show()
-            } else {
-                // Si pasa todas las validaciones, registra el usuario
-                val userId = dbUser.registerUser(email, password)
-                if (userId > -1) {
-                    Toast.makeText(this, "Usuario registrado con éxito", Toast.LENGTH_SHORT).show()
-                    finish()
-                } else {
-                    Toast.makeText(this, "Error al registrar usuario", Toast.LENGTH_SHORT).show()
-                }
+            when {
+                nombre.isEmpty() -> Toast.makeText(this, "Por favor ingrese un nombre de usuario", Toast.LENGTH_SHORT).show()
+                !Patterns.EMAIL_ADDRESS.matcher(correo).matches() -> Toast.makeText(this, "Correo no válido", Toast.LENGTH_SHORT).show()
+                telefono.length != 9 -> Toast.makeText(this, "Por favor ingrese un número de teléfono válido de 9 dígitos", Toast.LENGTH_SHORT).show()
+                contrasena.isEmpty() -> Toast.makeText(this, "Por favor ingrese una contraseña", Toast.LENGTH_SHORT).show()
+                contrasena.length < 8 -> Toast.makeText(this, "La contraseña debe tener al menos 8 caracteres", Toast.LENGTH_SHORT).show()
+                else -> registrarUsuario(nombre, correo, telefono.toInt(), contrasena)
             }
         }
+    }
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+    private fun registrarUsuario(nombreUsuario: String, correo: String, telefono: Int, contrasena: String) {
+        val clienteService = RetrofitClient.instance
+        val nuevoCliente = Cliente(usuario = nombreUsuario, correo = correo, telefono = telefono, contrasena = contrasena)
+
+        clienteService.createCliente(nuevoCliente).enqueue(object : Callback<Cliente> {
+            override fun onResponse(call: Call<Cliente>, response: Response<Cliente>) {
+                if (response.isSuccessful) {
+                    Toast.makeText(this@RegisterActivity, "Usuario registrado con éxito", Toast.LENGTH_SHORT).show()
+                    finish()
+                } else {
+                    Toast.makeText(this@RegisterActivity, "Error al registrar usuario: ${response.code()}", Toast.LENGTH_LONG).show()
+                }
+            }
+
+            override fun onFailure(call: Call<Cliente>, t: Throwable) {
+                Toast.makeText(this@RegisterActivity, "Error de conexión", Toast.LENGTH_SHORT).show()
+            }
+        })
     }
 }

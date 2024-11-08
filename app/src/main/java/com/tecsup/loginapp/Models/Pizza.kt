@@ -10,4 +10,3 @@ data class Pizza(
         return precio * cantidad
     }
 }
-
