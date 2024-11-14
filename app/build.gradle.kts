@@ -17,6 +17,9 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
+    kapt {
+        correctErrorTypes = true
+    }
 
     buildTypes {
         release {

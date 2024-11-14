@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="agregar">#FFD40D</color>
+    <color name="backgraund">#D9D9D9</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="gris">#6B6B6B</color>
+    <color name="red">#FF0000</color>
+    <color name="registrarse">#232323</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <string name="Google_maps_key" templateMargeStrategy="preserve" translatable="false">AIzaSyB4MTkwE7q2Kb8L-5_dxO0niCbljUVlyTI</string>
+    <string name="_1">cantidad</string>
+    <string name="_25">precio</string>
+    <string name="app_name">proyectomovil</string>
+    <string name="carrito">Carrito</string>
+    <string name="carrito_de_compra">Carrito de Compra</string>
+    <string name="confirmar_compra">Confirmar compra</string>
+    <string name="confirmar_contrase_a">Confirmar contraseña</string>
+    <string name="contra">Contraseña:</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="contraseña">Ingrese su contraseña</string>
+    <string name="correo_electr_nico">Correo electrónico:</string>
+    <string name="crear_nueva_cuenta">Crear nueva cuenta</string>
+    <string name="cuenta">Cuenta</string>
+    <string name="delivery">Delivery</string>
+    <string name="delivery_icon">delivery_icon</string>
+    <string name="google">Continuar con Google</string>
+    <string name="happypizza">happypizza</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="imagen_de_la_pizza">imagen de la pizza</string>
+    <string name="ingresa_tu_direcci_n_de_entrega">Ingresa tu dirección de entrega</string>
+    <string name="ingresar_contraseña">Ingrese su contraseña...</string>
+    <string name="ingresar_nombre">Ingrese su nombre de usuario</string>
+    <string name="ingrese_su_contrase_a_nuevamente">Repita su Contraseña:</string>
+    <string name="ingrese_su_correo_electr_nico">Correo Electrónico:</string>
+    <string name="ingrese_un_nombre_de_usuario">Usuario:</string>
+    <string name="ingrese_una_contrase_a">Contraseña:</string>
+    <string name="iniciar_sesi_n">Iniciar Sesión</string>
+    <string name="logo_happy_pizza">Logo Happy Pizza</string>
+    <string name="nombre">Ingrese su correo de usuario</string>
+    <string name="nombre_de_usuario">Nombre de Usuario:</string>
+    <string name="pizza_nombre">Pizza Nombre</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="usuario">Correo de Usuario:</string>
+    <string name="utilizar_mi_ubicaci_n_actual">Utilizar mi ubicación actual</string>
+    <string name="ver_m_s_productos">Ver más productos...</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Dark">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Base.Theme.Proyectomovil" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/registrarse</item>
+        <item name="colorPrimaryVariant">@color/registrarse</item>
+        <item name="colorAccent">@color/registrarse</item>
+        <item name="buttonStyle">@style/MyButtonStyle</item>
+    </style>
+    <style name="MyButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/registrarse</item>
+    </style>
+    <style name="Theme.Proyectomovil" parent="Base.Theme.Proyectomovil"/>
+    <style name="ToolbarTitleStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
