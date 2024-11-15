@@ -1,3 +1,0 @@
-com.tecsup.proyectomovil.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

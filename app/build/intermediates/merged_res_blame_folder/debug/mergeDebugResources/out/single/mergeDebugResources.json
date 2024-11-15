@@ -1,406 +1,458 @@
 [
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_envios.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_envios.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_bottom_sheet_terms_conditions.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\bottom_sheet_terms_conditions.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_login_background.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/login_background.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_triangulo_red.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\triangulo_red.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_pizza.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\pizza.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_hawaiana.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\hawaiana.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_google.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_google.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_cart.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/cart.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_image.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\image.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_baseline_search_24.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_baseline_search_24.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_logo.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_logo.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_devoluciones.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\devoluciones.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_building_shop_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\building_shop_svgrepo_com.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_triangulo_rojo.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/triangulo_rojo.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_cached_24.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\cached_24.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_scooter.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/scooter.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_pedido_help.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_pedido_help.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_star.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/star.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_anadir.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/anadir.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\menu_menu_ofertas2.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\menu\\menu_ofertas2.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ubic.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ubic.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_baseline_delivery_dining_24.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\baseline_delivery_dining_24.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_back_help.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/back_help.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_eliminar.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\eliminar.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_hawaiana.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/hawaiana.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_rounded_background.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\rounded_background.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_cart.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_cart.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_volver.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\volver.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_selector_image_button.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\selector_image_button.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_back_dev.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/back_dev.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_bg_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\bg_bottom_sheet.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_img_2.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/img_2.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_scooter.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\scooter.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_logopizza.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\logopizza.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_menu_arrow.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_menu_arrow.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_layout_bottom_sheet.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\layout_bottom_sheet.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_puntos.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_puntos.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_cart.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_cart.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/xml_data_extraction_rules.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_historial.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_historial.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_pizza_americana.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/pizza_americana.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_rounded_input_background.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\rounded_input_background.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_triangle_svgrepo_com.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/triangle_svgrepo_com.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_historial.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\historial.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_user.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_user.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_envios.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_envios.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_triangulo_red.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/triangulo_red.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ayuda.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ayuda.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_google.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_google.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_account.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\account.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_register.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_register.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_devol.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_devol.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_img.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/img.png"
+        "merged": "com.tecsup.loginapp-debug-37:/layout_item_cart.xml.flat",
+        "source": "com.tecsup.loginapp-main-39:/layout/item_cart.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_logo.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_logo.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\img_1.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_terminos.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\terminos.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_triangulo_amarillo.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/triangulo_amarillo.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_item_background.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/item_background.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_delyv.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\delyv.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_editre.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/editre.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_account.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_account.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_devol.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_devol.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_eliminar.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/eliminar.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_logo2.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\logo2.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_help.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_help.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_baseline_search_24.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/xml_backup_rules.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_pizza_americana.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\pizza_americana.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_item_cart.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/item_cart.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ubicacion.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ubicacion.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_rounded_background.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/rounded_background.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ubic.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ubic.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_baseline_more_vert_24.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/baseline_more_vert_24.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_user2.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_user2.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/menu_menu_ofertas.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/menu/menu_ofertas.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ubicacion.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ubicacion.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_sugerencias.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\sugerencias.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_home.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_home.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_arrow_back.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_bottom_sheet_terms_delivery.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/bottom_sheet_terms_delivery.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_rounded_button_background.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/rounded_button_background.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_menu_arrow.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_menu_arrow.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_bottom_sheet_terms_conditions.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/bottom_sheet_terms_conditions.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_splash_screen2.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\splash_screen2.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_image.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/image.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_ofertas.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_ofertas.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_item_help.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\item_help.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_logopizza.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/logopizza.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_item_pizza.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\item_pizza.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_pizza.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/pizza.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_user.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_user.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_account.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/account.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_border_input.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\border_input.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_star.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\star.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_preguntas_frecuentes.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/preguntas_frecuentes.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_flecha.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_flecha.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_terminos.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/terminos.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_baseline_more_vert_24.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\baseline_more_vert_24.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_item_help.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/item_help.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_cart.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\cart.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_border_input.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/border_input.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_detalle_pedido.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_detalle_pedido.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_carro_de_la_compra.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/carro_de_la_compra.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_puntos.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\puntos.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_arrow_back.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_arrow_back.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_login_background.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\login_background.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_item_pizza_help.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/item_pizza_help.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_pedido_help.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_pedido_help.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_volver.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_volver.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_rounded_corners.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/rounded_corners.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_triangulo_amarillo.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\triangulo_amarillo.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_puntos.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/puntos.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_red_circle_background.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/red_circle_background.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_home.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_ofertas.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_ofertas.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_back_help.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\back_help.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_envios.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/envios.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_triangulo_rojo.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\triangulo_rojo.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_building_shop_svgrepo_com.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/building_shop_svgrepo_com.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_item_product.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\item_product.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_historial.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_historial.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_envios.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\envios.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_user2.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_user2.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_triangle_svgrepo_com.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\triangle_svgrepo_com.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_item_pizza.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/item_pizza.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_fragment_cart.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\fragment_cart.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_flecha.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_flecha.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_sugerencias.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/sugerencias.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_item_pizza_help.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\item_pizza_help.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_historial.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/historial.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_recoger.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_recoger.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_selector_image_button.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/selector_image_button.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\img_2.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_recoger.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_recoger.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_editre.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\editre.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_logo.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/logo.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_baseline_store_24.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\baseline_store_24.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_detalle_pedido.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_detalle_pedido.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_anadir.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\anadir.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_img_pizza.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/img_pizza.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_cart.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_cart.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_delivery.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_delivery.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_back_dev.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\back_dev.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_flecha.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/flecha.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_help.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_help.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_volver.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/volver.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\logo.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\menu_menu_ofertas.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\menu\\menu_ofertas.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_activity_login.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/activity_login.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_rounded_corners.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\rounded_corners.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ayuda.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ayuda.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_rounded_input_background.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/rounded_input_background.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_bottom_sheet_terms_delivery.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\bottom_sheet_terms_delivery.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_logo2.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/logo2.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_carro_de_la_compra.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\carro_de_la_compra.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_volver.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_volver.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/menu_menu_ofertas2.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/menu/menu_ofertas2.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_preguntas_frecuentes.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\preguntas_frecuentes.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_home.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/home.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_nav_header.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\nav_header.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_ic_account.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/ic_account.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_img_1.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/img_1.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/layout_item_product.xml.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/layout/item_product.xml"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_img.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\img.png"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_devoluciones.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/devoluciones.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_delivery.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_delivery.xml"
     },
     {
-        "merged": "com.tecsup.proyectomovil.app-debug-35:/drawable_delyv.png.flat",
-        "source": "com.tecsup.proyectomovil.app-main-37:/drawable/delyv.png"
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_item_background.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_ic_puntos.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\ic_puntos.png"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_flecha.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\flecha.png"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_item_cart.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\item_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_baseline_remove_red_eye_24.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_home.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_img_pizza.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\img_pizza.png"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_text3_carga.png.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\text3_carga.png"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_rounded_button_background.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\rounded_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\drawable_red_circle_background.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\drawable\\red_circle_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-debug-37:\\layout_fragment_account.xml.flat",
+        "source": "C:\\Users\\terry\\.gradle\\daemon\\8.7\\com.tecsup.loginapp-main-39:\\layout\\fragment_account.xml"
     }
 ]

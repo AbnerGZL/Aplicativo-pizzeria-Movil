@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.tecsup.proyectomovil.app-mergeDebugResources-33:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
+            "outputFile": "com.tecsup.loginapp-mergeDebugResources-35:/values-w400dp-port-v13/values-w400dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\terry\\.gradle\\caches\\transforms-4\\cd33e91a0e5f03c107e5b92d2ef0f12f\\transformed\\material-1.12.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
+                    "source": "C:\\Users\\terry\\.gradle\\caches\\transforms-4\\066ac4cbae69f3bf58760cdf888dea74\\transformed\\material-1.12.0\\res\\values-w400dp-port-v13\\values-w400dp-port-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bottom_sheet"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el método de compra que deseas realizar"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/button_store_pickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#D03139"
+        android:text="Recojo en Tienda"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_store_24"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/button_delivery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFD500"
+        android:text="Delivery"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/baseline_delivery_dining_24"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/btn_continue_shopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E0E0E0"
+        android:text="Seguir escogiendo pizzas..."
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+</LinearLayout>

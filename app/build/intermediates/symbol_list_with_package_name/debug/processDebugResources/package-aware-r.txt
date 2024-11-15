@@ -1,4 +1,4 @@
-com.tecsup.proyectomovil
+com.tecsup.loginapp
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -813,6 +813,8 @@ attr logo
 attr logoAdjustViewBounds
 attr logoDescription
 attr logoScaleType
+attr mapColorScheme
+attr mapId
 attr mapType
 attr marginHorizontal
 attr marginLeftSystemWindowInsets
@@ -2127,6 +2129,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2310,6 +2313,8 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen list_item_spacing
+dimen list_item_spacing_half
 dimen m3_alert_dialog_action_bottom_padding
 dimen m3_alert_dialog_action_top_padding
 dimen m3_alert_dialog_corner_size
@@ -2948,6 +2953,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -3042,7 +3051,11 @@ drawable avd_show_password
 drawable ayuda
 drawable back_dev
 drawable back_help
+drawable baseline_delivery_dining_24
 drawable baseline_more_vert_24
+drawable baseline_remove_red_eye_24
+drawable baseline_store_24
+drawable bg_bottom_sheet
 drawable border_input
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -3053,6 +3066,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable building_shop_svgrepo_com
+drawable cached_24
 drawable carro_de_la_compra
 drawable cart
 drawable common_full_open_on_phone
@@ -3219,6 +3233,7 @@ drawable star
 drawable sugerencias
 drawable terminos
 drawable test_level_drawable
+drawable text3_carga
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable triangle_svgrepo_com
@@ -3276,6 +3291,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id actionDown
 id actionDownUp
 id actionUp
@@ -3334,10 +3350,10 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnAddToCart
-id btnBack
 id btnLogin
 id btnRegister
 id btnTrackOrder
+id btn_continue_shopping
 id btn_current_location
 id btn_next
 id buttonPanel
@@ -3347,11 +3363,12 @@ id button_decrease
 id button_delivery
 id button_in_store
 id button_increase
+id button_store_pickup
 id cache_measures
 id callMeasure
+id cancel_action
 id cancel_button
 id carryVelocity
-id cartLayout
 id center
 id centerCrop
 id centerInside
@@ -3440,14 +3457,15 @@ id elastic
 id embed
 id end
 id endToStart
+id end_padder
 id enterAlways
 id enterAlwaysCollapsed
 id envios_icon
 id escape
-id etConfirmPassword
 id etEmail
 id etEntrega
 id etPassword
+id etPhone
 id etUsername
 id exitUntilCollapsed
 id expand_activities_button
@@ -3465,6 +3483,7 @@ id fitXY
 id fixed
 id flip
 id floating
+id follow_system
 id forever
 id fragment_container_view_tag
 id frost
@@ -3502,6 +3521,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id image_pizza
 id imgNext
 id imgPizza
@@ -3512,6 +3532,7 @@ id indeterminate
 id info
 id invisible
 id inward
+id is_pooling_container_tag
 id it_historial
 id italic
 id item_touch_helper_previous_elevation
@@ -3560,6 +3581,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id media_actions
 id message
 id middle
 id mini
@@ -3652,6 +3674,7 @@ id pizzaImage
 id pizzaName
 id pizzaPrice
 id pizza_image
+id pooling_container_listener_holder_tag
 id position
 id postLayout
 id preguntasFrec
@@ -3659,6 +3682,8 @@ id pressed
 id productImage
 id productName
 id productPrice
+id profileContent
+id progressBar
 id progress_circular
 id progress_horizontal
 id radio
@@ -3670,6 +3695,9 @@ id recyclerViewCombos
 id recyclerViewDevoluciones
 id recyclerViewDrinks
 id recyclerViewOffers
+id recycler_bebidas
+id recycler_combos
+id recycler_ofertas
 id recycler_view_cart
 id report_drawn
 id reverseSawtooth
@@ -3736,12 +3764,14 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id status_bar_latest_event_content
 id stop
 id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
 id tabMode
+id tab_layout
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -3775,7 +3805,6 @@ id text_input_start_icon
 id text_pizza_name
 id text_pizza_price
 id text_quantity
-id text_view_more_products
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3809,7 +3838,6 @@ id transition_transform
 id triangle
 id triangulo_amarillo
 id tvCalificaTuPedido
-id tvConfirmPassword
 id tvCostoTotal
 id tvCostoTotal1
 id tvDetallesPedido
@@ -3817,9 +3845,11 @@ id tvDireccion
 id tvEmail
 id tvEstadoPedido
 id tvFechaHora
+id tvName
 id tvNombreConductor
 id tvNombreProducto
 id tvPassword
+id tvPhone
 id tvPizzaDescription
 id tvPizzaName
 id tvPizzaPrice
@@ -3838,11 +3868,13 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_email
 id user_icon
 id user_name
 id user_section
 id vertical_only
 id view_offset_helper
+id view_pager
 id view_transition
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
@@ -3976,7 +4008,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_cart
 layout activity_delivery
 layout activity_detalle_pedido
 layout activity_devol
@@ -3984,6 +4015,7 @@ layout activity_envios
 layout activity_help
 layout activity_historial
 layout activity_login
+layout activity_main
 layout activity_ofertas
 layout activity_pedido_help
 layout activity_recoger
@@ -4008,6 +4040,9 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout fragment_account
+layout fragment_cart
+layout fragment_home
 layout ime_base_split_test_activity
 layout ime_secondary_split_test_activity
 layout item_cart
@@ -4015,6 +4050,7 @@ layout item_help
 layout item_pizza
 layout item_pizza_help
 layout item_product
+layout layout_bottom_sheet
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -4066,15 +4102,26 @@ layout mtrl_picker_text_input_date
 layout mtrl_picker_text_input_date_range
 layout mtrl_search_bar
 layout mtrl_search_view
+layout nav_header
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout splash_screen2
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
 menu menu_ofertas
@@ -4082,7 +4129,6 @@ menu menu_ofertas2
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
-string Google_maps_key
 string _1
 string _25
 string abc_action_bar_home_description
@@ -4179,6 +4225,7 @@ string ingresar_contraseña
 string ingresar_nombre
 string ingrese_su_contrase_a_nuevamente
 string ingrese_su_correo_electr_nico
+string ingrese_su_tel_fono
 string ingrese_un_nombre_de_usuario
 string ingrese_una_contrase_a
 string iniciar_sesi_n
@@ -4291,6 +4338,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pedidos
 string pizza_nombre
 string registrarse
 string search_menu_title
@@ -4395,6 +4443,7 @@ style Base_Theme_AppCompat_Light_Dialog_Alert
 style Base_Theme_AppCompat_Light_Dialog_FixedSize
 style Base_Theme_AppCompat_Light_Dialog_MinWidth
 style Base_Theme_AppCompat_Light_DialogWhenLarge
+style Base_Theme_LoginApp
 style Base_Theme_Material3_Dark
 style Base_Theme_Material3_Dark_BottomSheetDialog
 style Base_Theme_Material3_Dark_Dialog
@@ -4426,7 +4475,6 @@ style Base_Theme_MaterialComponents_Light_Dialog_Bridge
 style Base_Theme_MaterialComponents_Light_Dialog_FixedSize
 style Base_Theme_MaterialComponents_Light_Dialog_MinWidth
 style Base_Theme_MaterialComponents_Light_DialogWhenLarge
-style Base_Theme_Proyectomovil
 style Base_ThemeOverlay_AppCompat
 style Base_ThemeOverlay_AppCompat_ActionBar
 style Base_ThemeOverlay_AppCompat_Dark
@@ -4617,7 +4665,6 @@ style MaterialAlertDialog_MaterialComponents_Title_Panel
 style MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked
 style MaterialAlertDialog_MaterialComponents_Title_Text
 style MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked
-style MyButtonStyle
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
@@ -4761,9 +4808,14 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style TextAppearance_Design_CollapsingToolbar_Expanded
 style TextAppearance_Design_Counter
 style TextAppearance_Design_Counter_Overflow
@@ -4859,6 +4911,7 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_LoginApp
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog
@@ -4936,7 +4989,6 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_Proyectomovil
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -5513,7 +5565,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear trackStopIndicatorSize
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
-styleable MapAttrs ambientEnabled cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
+styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapColorScheme mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop backgroundTint
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType android_popupElevation dropDownBackgroundTint simpleItemLayout simpleItemSelectedColor simpleItemSelectedRippleColor simpleItems
