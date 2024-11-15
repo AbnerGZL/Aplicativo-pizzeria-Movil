@@ -38,4 +38,20 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pedidos">Pedidos</string>
     <string name="ingrese_su_tel_fono">Ingrese su teléfono</string>
+    <string name="user_image">User Image</string>
+    <string name="user_name">User Name</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="inicio">Inicio</string>
+    <string name="mis_compras">Mis compras</string>
+    <string name="mi_cuenta">Mi Cuenta</string>
+    <string name="informaci_n">Información</string>
+    <string name="historial_de_pedidos">Historial de pedidos</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="promociones">Promociones</string>
+    <string name="preguntas_frecuentes">Preguntas Frecuentes</string>
+    <string name="t_rminos_y_condiciones">Términos y Condiciones</string>
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+    <string name="historial">Historial</string>
+    <string name="todo">TODO</string>
 </resources>

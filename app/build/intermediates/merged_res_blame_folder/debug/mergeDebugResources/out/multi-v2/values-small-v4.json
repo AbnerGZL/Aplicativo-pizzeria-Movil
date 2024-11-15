@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.tecsup.loginapp-mergeDebugResources-35:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.tecsup.loginapp-mergeDebugResources-2:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\terry\\.gradle\\caches\\transforms-4\\066ac4cbae69f3bf58760cdf888dea74\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Arny Balbin\\.gradle\\caches\\transforms-4\\066ac4cbae69f3bf58760cdf888dea74\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

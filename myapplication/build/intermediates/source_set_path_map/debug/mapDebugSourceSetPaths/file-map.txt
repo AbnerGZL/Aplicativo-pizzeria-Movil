@@ -1,0 +1,34 @@
+com.example.myapplication-pngs-0 C:\Proyecto 4 Ciclo\Aplicativo-pizzeria-Movil\myapplication\build\generated\res\pngs\debug
+com.example.myapplication-resValues-1 C:\Proyecto 4 Ciclo\Aplicativo-pizzeria-Movil\myapplication\build\generated\res\resValues\debug
+com.example.myapplication-packageDebugResources-2 C:\Proyecto 4 Ciclo\Aplicativo-pizzeria-Movil\myapplication\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.myapplication-packageDebugResources-3 C:\Proyecto 4 Ciclo\Aplicativo-pizzeria-Movil\myapplication\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.myapplication-debug-4 C:\Proyecto 4 Ciclo\Aplicativo-pizzeria-Movil\myapplication\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.myapplication-debug-5 C:\Proyecto 4 Ciclo\Aplicativo-pizzeria-Movil\myapplication\src\debug\res
+com.example.myapplication-main-6 C:\Proyecto 4 Ciclo\Aplicativo-pizzeria-Movil\myapplication\src\main\res
+com.example.myapplication-appcompat-resources-1.7.0-7 C:\Users\Arny Balbin\.gradle\caches\transforms-4\0512a8ea4464de2afc97b34af147f268\transformed\appcompat-resources-1.7.0\res
+com.example.myapplication-lifecycle-livedata-core-2.6.2-8 C:\Users\Arny Balbin\.gradle\caches\transforms-4\0c27b9b88d3add398906850c2ae921d4\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.myapplication-core-1.13.1-9 C:\Users\Arny Balbin\.gradle\caches\transforms-4\0cd572478b3905c3f3b29f4424b8d2fd\transformed\core-1.13.1\res
+com.example.myapplication-activity-1.9.2-10 C:\Users\Arny Balbin\.gradle\caches\transforms-4\0fea2f87dcac42577ac2cd2fac7a0234\transformed\activity-1.9.2\res
+com.example.myapplication-core-runtime-2.2.0-11 C:\Users\Arny Balbin\.gradle\caches\transforms-4\288f43865258afff58fb278f36bd65ab\transformed\core-runtime-2.2.0\res
+com.example.myapplication-core-ktx-1.13.1-12 C:\Users\Arny Balbin\.gradle\caches\transforms-4\39229972c02da999752389287930d698\transformed\core-ktx-1.13.1\res
+com.example.myapplication-savedstate-1.2.1-13 C:\Users\Arny Balbin\.gradle\caches\transforms-4\416cd01b15d41adbd51e84ae48527261\transformed\savedstate-1.2.1\res
+com.example.myapplication-fragment-1.5.4-14 C:\Users\Arny Balbin\.gradle\caches\transforms-4\42b9f583c4a0788ba2580755f116c301\transformed\fragment-1.5.4\res
+com.example.myapplication-annotation-experimental-1.4.0-15 C:\Users\Arny Balbin\.gradle\caches\transforms-4\431c3e3441fa519c320704c1b169ed28\transformed\annotation-experimental-1.4.0\res
+com.example.myapplication-lifecycle-livedata-2.6.2-16 C:\Users\Arny Balbin\.gradle\caches\transforms-4\5b06dcd7a88a0d11c2258d6a14d63a62\transformed\lifecycle-livedata-2.6.2\res
+com.example.myapplication-lifecycle-process-2.6.2-17 C:\Users\Arny Balbin\.gradle\caches\transforms-4\6121b39ffb3da98ddd1c0c42175ab864\transformed\lifecycle-process-2.6.2\res
+com.example.myapplication-profileinstaller-1.3.1-18 C:\Users\Arny Balbin\.gradle\caches\transforms-4\67e8a4fcac9c1c141f16d5fbb98a121c\transformed\profileinstaller-1.3.1\res
+com.example.myapplication-lifecycle-viewmodel-2.6.2-19 C:\Users\Arny Balbin\.gradle\caches\transforms-4\750c9ac42551d8a98fb48352fd3a7316\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.myapplication-transition-1.5.0-20 C:\Users\Arny Balbin\.gradle\caches\transforms-4\8330f8de07f6692b4d1f77d2e3beb97a\transformed\transition-1.5.0\res
+com.example.myapplication-viewpager2-1.0.0-21 C:\Users\Arny Balbin\.gradle\caches\transforms-4\9100b41e90beed06451272283a2640e1\transformed\viewpager2-1.0.0\res
+com.example.myapplication-drawerlayout-1.1.1-22 C:\Users\Arny Balbin\.gradle\caches\transforms-4\912483241450dd0d735bf062bfc7a363\transformed\drawerlayout-1.1.1\res
+com.example.myapplication-recyclerview-1.1.0-23 C:\Users\Arny Balbin\.gradle\caches\transforms-4\9d5da7c80457259e244413433c84f959\transformed\recyclerview-1.1.0\res
+com.example.myapplication-emoji2-1.3.0-24 C:\Users\Arny Balbin\.gradle\caches\transforms-4\a410f3bd43ca2b7fec8988c6e926b9f2\transformed\emoji2-1.3.0\res
+com.example.myapplication-emoji2-views-helper-1.3.0-25 C:\Users\Arny Balbin\.gradle\caches\transforms-4\ade16cdc25a49422ea0a769d3957c42e\transformed\emoji2-views-helper-1.3.0\res
+com.example.myapplication-lifecycle-runtime-2.6.2-26 C:\Users\Arny Balbin\.gradle\caches\transforms-4\aebfdd3b5cb11aed98de8a437ad6d7d5\transformed\lifecycle-runtime-2.6.2\res
+com.example.myapplication-appcompat-1.7.0-27 C:\Users\Arny Balbin\.gradle\caches\transforms-4\b28d0a7c4dc8f5396283e934f6d96831\transformed\appcompat-1.7.0\res
+com.example.myapplication-lifecycle-viewmodel-savedstate-2.6.2-28 C:\Users\Arny Balbin\.gradle\caches\transforms-4\c1b658ea410e8db94922fb662860e8f3\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.myapplication-coordinatorlayout-1.1.0-29 C:\Users\Arny Balbin\.gradle\caches\transforms-4\ca22858cf9da44c310f33629d307bb44\transformed\coordinatorlayout-1.1.0\res
+com.example.myapplication-material-1.12.0-30 C:\Users\Arny Balbin\.gradle\caches\transforms-4\cd33e91a0e5f03c107e5b92d2ef0f12f\transformed\material-1.12.0\res
+com.example.myapplication-startup-runtime-1.1.1-31 C:\Users\Arny Balbin\.gradle\caches\transforms-4\f8eeeaa330afc6b24b2b992f6f6ecb81\transformed\startup-runtime-1.1.1\res
+com.example.myapplication-cardview-1.0.0-32 C:\Users\Arny Balbin\.gradle\caches\transforms-4\fa082e9e5421ed43039d7fb8f5e47eb7\transformed\cardview-1.0.0\res
+com.example.myapplication-constraintlayout-2.1.4-33 C:\Users\Arny Balbin\.gradle\caches\transforms-4\ff9e0e9e409c3dea988097979632661d\transformed\constraintlayout-2.1.4\res

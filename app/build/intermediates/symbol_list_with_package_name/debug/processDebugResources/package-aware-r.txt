@@ -3051,9 +3051,17 @@ drawable avd_show_password
 drawable ayuda
 drawable back_dev
 drawable back_help
+drawable baseline_account_circle_24
 drawable baseline_delivery_dining_24
+drawable baseline_help_24
+drawable baseline_history_24
+drawable baseline_home_24
+drawable baseline_local_offer_24
+drawable baseline_menu_book_24
 drawable baseline_more_vert_24
+drawable baseline_question_answer_24
 drawable baseline_remove_red_eye_24
+drawable baseline_shopping_bag_24
 drawable baseline_store_24
 drawable bg_bottom_sheet
 drawable border_input
@@ -3099,6 +3107,7 @@ drawable editre
 drawable eliminar
 drawable envios
 drawable flecha
+drawable flecha_izquierda
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable hawaiana
@@ -3247,9 +3256,16 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Compras
+id Cuenta
 id FUNCTION
+id Help
+id Inicio
 id META
 id NO_DEBUG
+id Pedidos
+id Preguntas
+id Promos
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3257,6 +3273,8 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Terminos
+id UserName
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -3440,6 +3458,7 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawer_layout
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -3495,6 +3514,7 @@ id gone
 id graph
 id graph_wrap
 id gridLayout
+id group1
 id group_divider
 id grouping
 id groups
@@ -3619,6 +3639,7 @@ id multiply
 id nav_account
 id nav_cart
 id nav_home
+id nav_tools
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3626,6 +3647,7 @@ id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
 id navigation_bar_item_small_label_view
 id navigation_header_container
+id navigation_view
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
@@ -3683,6 +3705,7 @@ id productImage
 id productName
 id productPrice
 id profileContent
+id profileImage
 id progressBar
 id progress_circular
 id progress_horizontal
@@ -4124,6 +4147,7 @@ layout select_dialog_singlechoice_material
 layout splash_screen2
 layout support_simple_spinner_dropdown_item
 menu bottom_nav_menu
+menu drawer_menu
 menu menu_ofertas
 menu menu_ofertas2
 mipmap ic_launcher
@@ -4161,6 +4185,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string ayuda
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -4217,9 +4242,12 @@ string google
 string happypizza
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
+string historial
+string historial_de_pedidos
 string home
 string icon_content_description
 string imagen_de_la_pizza
+string informaci_n
 string ingresa_tu_direcci_n_de_entrega
 string ingresar_contraseña
 string ingresar_nombre
@@ -4229,6 +4257,7 @@ string ingrese_su_tel_fono
 string ingrese_un_nombre_de_usuario
 string ingrese_una_contrase_a
 string iniciar_sesi_n
+string inicio
 string item_view_role_description
 string logo_happy_pizza
 string m3_exceed_max_badge_text_suffix
@@ -4269,6 +4298,8 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string mi_cuenta
+string mis_compras
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -4331,6 +4362,8 @@ string mtrl_switch_track_decoration_path
 string mtrl_switch_track_path
 string mtrl_timepicker_cancel
 string mtrl_timepicker_confirm
+string navigation_drawer_close
+string navigation_drawer_open
 string nombre
 string nombre_de_usuario
 string password_toggle_content_description
@@ -4340,6 +4373,8 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string pedidos
 string pizza_nombre
+string preguntas_frecuentes
+string promociones
 string registrarse
 string search_menu_title
 string searchbar_scrolling_view_behavior
@@ -4349,6 +4384,11 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string siguiente
 string status_bar_notification_info_overflow
+string t_rminos_y_condiciones
+string todo
+string user_example_com
+string user_image
+string user_name
 string usuario
 string utilizar_mi_ubicaci_n_actual
 string ver_m_s_productos
