@@ -57,14 +57,25 @@
             android:layout_gravity="center_vertical"
             android:layout_marginEnd="8dp">
 
-            <Button
-                android:id="@+id/button_decrease"
+            <RelativeLayout
                 android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:backgroundTint="#D03139"
-                android:text="-"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:layout_height="40dp">
+
+                <Button
+                    android:id="@+id/button_decrease"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#D03139"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/eliminar" />
+            </RelativeLayout>
 
             <TextView
                 android:id="@+id/text_quantity"
@@ -76,14 +87,26 @@
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/button_increase"
+            <RelativeLayout
                 android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:backgroundTint="#D03139"
-                android:text="+"
-                android:textColor="@android:color/white"
-                android:textStyle="bold" />
+                android:layout_height="40dp">
+
+                <Button
+                    android:id="@+id/button_increase"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:backgroundTint="#D03139"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/anadir" />
+
+            </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

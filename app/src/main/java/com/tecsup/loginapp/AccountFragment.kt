@@ -1,19 +1,27 @@
 package com.tecsup.loginapp
 
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.provider.MediaStore
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import android.widget.Toast
+import com.bumptech.glide.Glide
 import com.tecsup.loginapp.Models.Cliente
 import com.tecsup.loginapp.Retrofit.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
+
 
 class AccountFragment : Fragment() {
 
@@ -22,8 +30,12 @@ class AccountFragment : Fragment() {
     private lateinit var tvEmail: TextView
     private lateinit var tvPhone: TextView
     private lateinit var tvPassword: TextView
+    private lateinit var profileImage: ImageView
     private lateinit var progressBar: ProgressBar
     private lateinit var profileContent: LinearLayout
+
+    private val PICK_IMAGE_REQUEST = 1
+    private var imageUri: Uri? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -36,53 +48,74 @@ class AccountFragment : Fragment() {
         tvEmail = view.findViewById(R.id.tvEmail)
         tvPhone = view.findViewById(R.id.tvPhone)
         tvPassword = view.findViewById(R.id.tvPassword)
+        profileImage = view.findViewById(R.id.profileImage)
         progressBar = view.findViewById(R.id.progressBar)
         profileContent = view.findViewById(R.id.profileContent)
 
         cargarDatosUsuario()
 
+        profileImage.setOnClickListener {
+            abrirGaleria()
+        }
+
         return view
     }
 
     private fun cargarDatosUsuario() {
-        val clienteService = RetrofitClient.instance
-        progressBar.visibility = View.VISIBLE
-        profileContent.visibility = View.GONE
+        val sharedPreferences = activity?.getSharedPreferences("loginPrefs", Context.MODE_PRIVATE)
+        val username = sharedPreferences?.getString("username", null)
 
-        clienteService.getClientes().enqueue(object : Callback<List<Cliente>> {
-            override fun onResponse(call: Call<List<Cliente>>, response: Response<List<Cliente>>) {
-                if (response.isSuccessful) {
-                    val clientes = response.body()
-                    val usuario = clientes?.firstOrNull()
-                    usuario?.let {
-                        tvUsername.text = it.usuario
-                        tvName.text = it.usuario
-                        tvEmail.text = it.correo
-                        tvPhone.text = it.telefono.toString()
-                        tvPassword.text = "********"
+        if (username != null) {
+            val clienteService = RetrofitClient.instance
+            progressBar.visibility = View.VISIBLE
+            profileContent.visibility = View.GONE
+
+            clienteService.getClientes().enqueue(object : Callback<List<Cliente>> {
+                override fun onResponse(call: Call<List<Cliente>>, response: Response<List<Cliente>>) {
+                    if (response.isSuccessful) {
+                        val clientes = response.body()
+                        val usuario = clientes?.firstOrNull { it.usuario == username }
+                        usuario?.let {
+                            tvUsername.text = it.usuario
+                            tvName.text = it.usuario
+                            tvEmail.text = it.correo
+                            tvPhone.text = it.telefono.toString()
+                            tvPassword.text = "********"
+                        }
+
+                        // Ocultar el ProgressBar y mostrar los datos de usuario
+                        progressBar.visibility = View.GONE
+                        profileContent.visibility = View.VISIBLE
+                    } else {
+                        Toast.makeText(context, "Error al cargar los datos", Toast.LENGTH_SHORT).show()
+                        progressBar.visibility = View.GONE
                     }
+                }
 
-                    // Ocultar el ProgressBar y mostrar los datos de usuario
-                    progressBar.visibility = View.GONE
-                    profileContent.visibility = View.VISIBLE
-                } else {
-                    Toast.makeText(context, "Error al cargar los datos", Toast.LENGTH_SHORT).show()
+                override fun onFailure(call: Call<List<Cliente>>, t: Throwable) {
+                    Toast.makeText(context, "Error de conexión", Toast.LENGTH_SHORT).show()
                     progressBar.visibility = View.GONE
                 }
-            }
-
-            override fun onFailure(call: Call<List<Cliente>>, t: Throwable) {
-                Toast.makeText(context, "Error de conexión", Toast.LENGTH_SHORT).show()
-                progressBar.visibility = View.GONE
-            }
-        })
+            })
+        } else {
+            // Si no hay sesión activa, redirigir al Login
+            val intent = Intent(context, LoginActivity::class.java)
+            startActivity(intent)
+            activity?.finish()
+        }
     }
 
-    private fun setVisibilityForUserFields(visibility: Int) {
-        tvUsername.visibility = visibility
-        tvName.visibility = visibility
-        tvEmail.visibility = visibility
-        tvPhone.visibility = visibility
-        tvPassword.visibility = visibility
+    private fun abrirGaleria() {
+        val intent = Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI)
+        startActivityForResult(intent, PICK_IMAGE_REQUEST)
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == PICK_IMAGE_REQUEST && resultCode == Activity.RESULT_OK && data != null) {
+            imageUri = data.data
+
+            Glide.with(this).load(imageUri).into(profileImage)
+        }
     }
 }

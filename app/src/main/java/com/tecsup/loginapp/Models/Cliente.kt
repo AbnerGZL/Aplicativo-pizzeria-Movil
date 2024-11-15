@@ -1,6 +1,6 @@
 package com.tecsup.loginapp.Models
 
-data class Cliente(
+data class Cliente (
     val id_cliente: Int? = null,
     val usuario: String,
     val correo: String,

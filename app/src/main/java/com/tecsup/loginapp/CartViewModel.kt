@@ -10,7 +10,12 @@ class CartViewModel : ViewModel() {
     val cartItems: LiveData<MutableList<Item>> get() = _cartItems
 
     fun addItem(item: Item) {
-        _cartItems.value?.add(item)
+        val cartItem = _cartItems.value?.find { it.name == item.name }
+        if (cartItem != null) {
+            cartItem.quantity += item.quantity
+        } else {
+            _cartItems.value?.add(item)
+        }
         _cartItems.value = _cartItems.value
     }
 }

@@ -37,7 +37,7 @@ class ItemAdapter(private val itemList: List<Item>, private val context: Context
 
         fun bind(item: Item) {
             title.text = item.name
-            price.text = "$${item.price}"
+            price.text = "S/. ${item.price}"
             image.setImageResource(item.imageResource)
         }
     }

@@ -57,7 +57,22 @@ class RegisterActivity : AppCompatActivity() {
                     Toast.makeText(this@RegisterActivity, "Usuario registrado con éxito", Toast.LENGTH_SHORT).show()
                     finish()
                 } else {
-                    Toast.makeText(this@RegisterActivity, "Error al registrar usuario: ${response.code()}", Toast.LENGTH_LONG).show()
+                    val errorBody = response.errorBody()?.string()
+                    if (errorBody != null) {
+                        when {
+                            errorBody.contains("correo") -> {
+                                Toast.makeText(this@RegisterActivity, "El correo ya está registrado.", Toast.LENGTH_LONG).show()
+                            }
+                            errorBody.contains("usuario") -> {
+                                Toast.makeText(this@RegisterActivity, "El nombre de usuario ya está registrado.", Toast.LENGTH_LONG).show()
+                            }
+                            else -> {
+                                Toast.makeText(this@RegisterActivity, "Error al registrar usuario: ${response.code()}", Toast.LENGTH_LONG).show()
+                            }
+                        }
+                    } else {
+                        Toast.makeText(this@RegisterActivity, "Error al registrar usuario: ${response.code()}", Toast.LENGTH_LONG).show()
+                    }
                 }
             }
 

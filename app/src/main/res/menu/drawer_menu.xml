@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/white">
+    <item
+        android:id="@+id/Inicio"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/inicio"/>
+    <item
+        android:id="@+id/Compras"
+        android:icon="@drawable/baseline_shopping_bag_24"
+        android:title="@string/mis_compras"/>
+    <item
+        android:id="@+id/Cuenta"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/mi_cuenta"/>
+
+    <group
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_tools"
+            android:title="@string/informaci_n"
+            android:icon="@android:color/transparent"
+            android:enabled="true"
+            android:checkable="false" />
+    </group>
+    <item
+        android:id="@+id/Pedidos"
+        android:icon="@drawable/baseline_history_24"
+        android:title="@string/historial_de_pedidos"/>
+    <item
+        android:id="@+id/Help"
+        android:icon="@drawable/baseline_help_24"
+        android:title="@string/ayuda" />
+
+    <item
+        android:id="@+id/Promos"
+        android:icon="@drawable/baseline_local_offer_24"
+        android:title="@string/promociones" />
+
+    <item
+        android:id="@+id/Preguntas"
+        android:icon="@drawable/baseline_question_answer_24"
+        android:title="@string/preguntas_frecuentes" />
+    <item
+        android:id="@+id/Terminos"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="@string/t_rminos_y_condiciones" />
+
+</menu>

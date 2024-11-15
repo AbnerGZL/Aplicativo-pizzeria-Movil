@@ -44,13 +44,13 @@ class CartAdapter(
 
         fun bind(item: Item) {
             title.text = item.name
-            price.text = "$${item.price * item.quantity}"
+            price.text = "S/. ${item.price * item.quantity}"
             image.setImageResource(item.imageResource)
             quantity.text = item.quantity.toString()
 
             increaseButton.setOnClickListener {
                 item.quantity++
-                price.text = "$${item.price * item.quantity}"
+                price.text = "S/. ${item.price * item.quantity}"
                 quantity.text = item.quantity.toString()
                 notifyItemChanged(adapterPosition)
             }
@@ -58,9 +58,8 @@ class CartAdapter(
             decreaseButton.setOnClickListener {
                 if (item.quantity > 1) {
                     item.quantity--
-                    price.text = "$${item.price * item.quantity}"
+                    price.text = "S/. ${item.price * item.quantity}"
                     quantity.text = item.quantity.toString()
-                    notifyItemChanged(adapterPosition)
                 }
             }
         }
